@@ -2,6 +2,7 @@ import React from "react";
 import Root from "../components/Root/Root";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "projects",
+        element: <Projects />,
       },
     ],
   },
