@@ -6,7 +6,7 @@ const projectsData = [
     name: "DREAMLAND",
     description:
       "Group project one completed with two other developers during the TechNative Digital 16-week Full-Stack Developer Bootcamp",
-    image: "src/assets/images/dream.png",
+    image: "public/images/dream.png",
     link: "https://technative-academy.github.io/Dream-Generator/",
     github: "https://github.com/technative-academy/Dream-Generator",
   },
@@ -15,7 +15,7 @@ const projectsData = [
     name: "PETSYNTH",
     description:
       "Group project two completed with two other developers during the TechNative Digital 16-week Full-Stack Developer Bootcamp",
-    image: "src/assets/images/petsynth.png",
+    image: "public/images/petsynth.png",
     link: "https://petsynth.netlify.app/",
     github: "https://github.com/technative-academy/PetSynth",
   },
@@ -24,7 +24,7 @@ const projectsData = [
     name: "REACT APP",
     description:
       "A React App that I created as a place to experiment with all things React and Redux and refine my technical skills",
-    image: "src/assets/images/react.png",
+    image: "public/images/react.png",
     link: "https://sbennett-react-app.netlify.app/",
     github: "https://github.com/sfbennett/technative-react-playground",
   },
@@ -33,7 +33,7 @@ const projectsData = [
     name: "FETCH A DOG",
     description:
       "A project that demonstrates fetching data from the Dog API using HTML, CSS and JavaScript. Don't stop retrieving!",
-    image: "src/assets/images/fetch.png",
+    image: "public/images/fetch.png",
     link: "https://sfbennett.github.io/fetch-a-dog/",
     github: "https://github.com/sfbennett/fetch-a-dog",
   },
@@ -42,7 +42,7 @@ const projectsData = [
     name: "NASA DAILY ATRONOMY",
     description:
       "A project I made to test out the NASA Astronomy Photo of the Day (APOD) API to fetch daily astronomy photographs",
-    image: "src/assets/images/gg.png",
+    image: "public/images/gg.png",
     link: "",
     github: "",
   },
@@ -51,7 +51,7 @@ const projectsData = [
     name: "SHRED STUDIO",
     description:
       "Shred Studio is a static guitar company website that I designed and created using HTML and CSS",
-    image: "src/assets/images/shredstudio.png",
+    image: "public/images/shredstudio.png",
     link: "https://sfbennett.github.io/shred-studio/",
     github: "https://github.com/sfbennett/shred-studio",
   },
@@ -60,7 +60,7 @@ const projectsData = [
     name: "FIND A FROG",
     description:
       "A project I made to practice filtering various frogs via input and buttons with HTML, CSS and vanilla JavaScript",
-    image: "src/assets/images/frog.png",
+    image: "public/images/frog.png",
     link: "https://sfbennett.github.io/find-a-frog/",
     github: "https://github.com/sfbennett/find-a-frog",
   },
@@ -69,7 +69,7 @@ const projectsData = [
     name: "WEATHER FORECAST API",
     description:
       "A simple weather forecast app created to test out the Open Meteo Weather Forecast API using HTML, CSS and vanilla JavaScript",
-    image: "src/assets/images/weather.png",
+    image: "public/images/weather.png",
     link: "https://sfbennett.github.io/weather-forecast/",
     github: "https://github.com/sfbennett/weather-forecast",
   },
@@ -78,7 +78,7 @@ const projectsData = [
     name: "SOLAR SYSTEM FILTER",
     description:
       "A project that filters the planets of the solar system via input and buttons using HTML, CSS and vanilla JavaScript",
-    image: "src/assets/images/planets.png",
+    image: "public/images/planets.png",
     link: "https://sfbennett.github.io/solar-system-filter/",
     github: "https://github.com/sfbennett/solar-system-filter",
   },
