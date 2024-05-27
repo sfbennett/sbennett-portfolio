@@ -19,7 +19,8 @@ const albumsData = [
     id: 3,
     title: "BLACK SABBATH",
     artist: "Black Sabbath",
-    image: "public/images/albums/sabbath.jpeg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/en/d/da/Black_Sabbath_debut_album.jpg",
     link: "https://open.spotify.com/album/3OmnatFgQ8o1DlYLp9EpNJ?si=jJAKd9xGSBCULWueA4WiXw",
   },
   {
