@@ -1,62 +1,141 @@
-/* Mobile Styling */
+/* Mobile styling for Nav */
 .wrapper {
-  padding: 1rem;
-  border: 1px solid lightgray;
+  position: relative;
+  display: flex;
+  padding: 15px;
+}
+
+.hamburgercontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.hamburger {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: #f4f4f4;
+  cursor: pointer;
+  margin-left: 280px;
+}
+
+.mobileLinks {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px;
+  margin-top: 30px;
+  background: yellow;
+  padding: 5px;
+}
+
+.mobileLink {
+  text-decoration: none;
+  padding: 5px;
+  text-align: left;
+  position: relative;
+  color: #333;
+  overflow: hidden;
 }
 
 .links {
-  display: flex;
+  display: none;
   gap: 50px;
 }
 
-.activeLink,
-.inactiveLink {
-  padding: 2px;
-  list-style: none;
-  text-decoration: none;
+.menuText {
+  margin-left: 10px;
+  font-size: 18px;
 }
 
-.activeLink {
-  color: #000;
-}
+/* Styling for mobile nav hover animation */
 
-.inactiveLink {
-  color: #666;
-}
-
-/* Styling for hover animation */
-
-.activeLink,
-.inactiveLink {
-  position: relative;
-  color: #41444b;
-  text-decoration: none;
-  padding-bottom: 2px;
-}
-
-.activeLink::after,
-.inactiveLink::after {
+.mobileLink::after {
   content: "";
   position: absolute;
   width: 0;
-  height: 2px;
-  bottom: 0;
+  height: 1.5px;
+  bottom: 0px;
   left: 0;
   background: currentColor;
   transition: width 0.3s ease-out;
 }
 
-.activeLink:hover::after,
-.inactiveLink:hover::after {
+.mobileLink:hover::after {
   width: 100%;
 }
 
-/* Mobile Hamburger Nav Styling */
+/* Sttyling for Desktop nav */
 
-/* Desktop styling */
-@media (min-width: 786px) {
+@media (min-width: 768px) {
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+    padding-bottom: 25px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .links {
+    display: flex;
+    margin-left: 65px;
+    position: fixed;
+    background: white;
+    margin-top: 10px;
+  }
+
+  .activeLink {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+  }
+
+  .activeLink:active {
+    font-style: none;
+  }
+
+  .activeLink:focus {
+    color: #666;
+  }
+
+  .activeLink,
+  .inactiveLink {
+    padding: 2px;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .inactiveLink {
+    color: #333;
+  }
+
+  /* Styling for desktop nav hover animation */
+
+  .activeLink,
+  .inactiveLink {
+    position: relative;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .activeLink::after,
+  .inactiveLink::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0px;
+    left: 0;
+    background: currentColor;
+    transition: width 0.3s ease-out;
+  }
+
+  .activeLink:hover::after,
+  .inactiveLink:hover::after {
+    width: 100%;
+  }
 }

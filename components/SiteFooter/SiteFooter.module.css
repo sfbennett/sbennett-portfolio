@@ -1,9 +1,11 @@
+/* Mobile styling */
+
 .wrapper {
-  padding: 1rem;
-  border: 1px solid lightgray;
+  padding: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  background: #88ab8e;
+  color: black;
+  background: white;
+  color: #333;
 }
