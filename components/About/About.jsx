@@ -20,8 +20,8 @@ function About() {
           <br />
           As a queer developer, I'm passionate about LGBTQ+ inclusivity in tech,
           amplifying under-represented voices and diversifying the industry. In
-          my spare time, I enjoy going to gigs, playing guitar, the sea,
-          bouldering, writing, and reading.
+          my spare time, I enjoy music, going to gigs, playing guitar, the sea,
+          bouldering, writing, 35mm film, and reading.
         </p>
       </div>
       {/* <h3 className={styles.listening}>What I'm listening to</h3> */}
