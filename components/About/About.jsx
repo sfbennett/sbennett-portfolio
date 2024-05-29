@@ -10,10 +10,10 @@ function About() {
         <h1 className={styles.name}>ABOUT</h1>
         <p className={styles.description}>
           I'm a former editor turned full-stack web developer. After completing
-          my MA at University, I spent the first five years of my career working
-          in the editorial team at Penguin Books on a wide variety of
-          non-fiction titles. Now, I'm eager to turn my passion for coding and
-          keen eye for design into a career so that I can build
+          my MA at the University of Sussex, I spent the first five years of my
+          career working in the editorial team at Penguin Books on a wide
+          variety of non-fiction titles. Now, I'm eager to turn my passion for
+          coding and keen eye for design into a career so that I can build
           meticulously-crafted and beautifully-designed websites and apps from
           scratch.
           <br />
@@ -25,6 +25,14 @@ function About() {
         </p>
       </div>
       {/* <h3 className={styles.listening}>What I'm listening to</h3> */}
+      <div className={styles.barsbox}>
+        <h2 className={styles.musich2}>Currently streaming</h2>
+        <div className={styles.nowplaying}>
+          <span className={styles.bars} />
+          <span className={styles.bars} />
+          <span className={styles.bars} />
+        </div>
+      </div>
       <AlbumList albums={albumsData} />
     </div>
   );

@@ -18,30 +18,22 @@ function Home() {
         </p>
       </div>
       <div className={styles.circlesbox}>
-        <div className={styles.circleone}>
-          {" "}
-          <a
-            href="mailto:susannah-bennett@hotmail.com"
-            className={styles.icons}
-          >
-            <FontAwesomeIcon icon={faEnvelope} size="2x" />
-          </a>
-        </div>
-        <div className={styles.circletwo}>
-          {" "}
-          <a href="https://github.com/sfbennett" className={styles.icons}>
-            <FontAwesomeIcon icon={faGithub} size="2x" />
-          </a>
-        </div>
-        <div className={styles.circlethree}>
-          {" "}
-          <a
-            href="https://www.linkedin.com/in/susannah-bennett-a16627181/"
-            className={styles.icons}
-          >
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
-          </a>
-        </div>
+        {" "}
+        <a
+          href="mailto:susannah-bennett@hotmail.com"
+          className={styles.circleone}
+        >
+          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+        </a>
+        <a href="https://github.com/sfbennett" className={styles.circletwo}>
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>{" "}
+        <a
+          href="https://www.linkedin.com/in/susannah-bennett-a16627181/"
+          className={styles.circlethree}
+        >
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
       </div>
       <div className={styles.imagecontainer}></div>
     </div>

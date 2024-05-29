@@ -14,8 +14,8 @@ function SiteNav() {
   const navLinks = [
     { label: "Home", url: "/" },
     { label: "About", url: "/about" },
-    { label: "GitHub", url: "https://github.com/sfbennett" },
     { label: "Projects", url: "/projects" },
+    { label: "GitHub", url: "https://github.com/sfbennett" },
   ];
   return (
     <div className={styles.wrapper}>
