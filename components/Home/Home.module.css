@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 
 .container {
@@ -27,7 +28,7 @@
   font-family: "Rammetto One", sans-serif;
   /* font-family: "Jaro", sans-serif; */
   /* font-family: "Abril Fatface", serif; */
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .description {
@@ -91,6 +92,12 @@
   transition: transform 0.5s ease-in-out;
 }
 
+.icon1:hover,
+.icon2:hover,
+.icon1:hover {
+  color: #555;
+}
+
 .circleone {
   background: #ea907a;
 
@@ -139,11 +146,11 @@
   }
 
   .container {
-    width: 440px;
+    width: 420px;
     padding: 25px 40px 25px 40px;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 0px;
     margin-right: 0px;
     transition: transform 0.5s ease-in-out;
@@ -157,7 +164,8 @@
 
   .description {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 8px;
+    padding: 0px;
   }
 
   .circlesbox {
@@ -165,7 +173,7 @@
   }
 
   .name {
-    font-size: px;
+    font-size: 25px;
     margin-top: 0px;
   }
 }

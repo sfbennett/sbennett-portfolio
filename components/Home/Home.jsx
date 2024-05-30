@@ -23,16 +23,24 @@ function Home() {
           href="mailto:susannah-bennett@hotmail.com"
           className={styles.circleone}
         >
-          <FontAwesomeIcon icon={faEnvelope} size="2x" />
+          <FontAwesomeIcon
+            icon={faEnvelope}
+            className={styles.icon1}
+            size="2x"
+          />
         </a>
         <a href="https://github.com/sfbennett" className={styles.circletwo}>
-          <FontAwesomeIcon icon={faGithub} size="2x" />
+          <FontAwesomeIcon icon={faGithub} className={styles.icon1} size="2x" />
         </a>{" "}
         <a
           href="https://www.linkedin.com/in/susannah-bennett-a16627181/"
           className={styles.circlethree}
         >
-          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            className={styles.icon1}
+            size="2x"
+          />
         </a>
       </div>
       <div className={styles.imagecontainer}></div>
