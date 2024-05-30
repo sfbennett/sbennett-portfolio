@@ -39,7 +39,7 @@ const projectsData = [
   },
   {
     id: 5,
-    name: "NASA DAILY ATRONOMY",
+    name: "NASA DAILY ASTRONOMY",
     description:
       "A project I made to test out the NASA Astronomy Photo of the Day (APOD) API to fetch daily astronomy photographs",
     image: "/images/gg.png",
