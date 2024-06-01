@@ -10,3 +10,9 @@
 - JSX
 - React + Vite
 - React Router
+
+## Tools
+
+- Netlify
+- Spaceship
+- Git and GitHub
