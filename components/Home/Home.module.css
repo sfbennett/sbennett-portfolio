@@ -29,6 +29,10 @@
   /* font-family: "Jaro", sans-serif; */
   /* font-family: "Abril Fatface", serif; */
   font-size: 22px;
+  /* font-family: "DM Serif Display", serif; */
+  /* font-family: "Playfair Display", serif; */
+  font-weight: 900;
+  /* text-transform: uppercase; */
 }
 
 .description {
@@ -39,6 +43,7 @@
   padding-right: 10px;
   font-size: 14px;
   line-height: 20px;
+  /* font-family: "Halant", serif; */
 }
 
 .iconcontainer {
@@ -147,7 +152,7 @@
 
   .container {
     width: 420px;
-    padding: 25px 40px 25px 40px;
+    padding: 20px 40px 20px 40px;
     display: flex;
     flex-direction: column;
     margin-top: 50px;
