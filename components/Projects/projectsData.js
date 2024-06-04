@@ -30,6 +30,15 @@ const projectsData = [
   },
   {
     id: 4,
+    name: "TO-DO LIST APP",
+    description:
+      "A simple to-do list app that I created following a step-by-step tutorial to practice and reaffirm my React + Vite technical skills",
+    image: "/images/todo.png",
+    link: "https://reactvite-todo.netlify.app/",
+    github: "https://github.com/sfbennett/reactjs-todolist",
+  },
+  {
+    id: 5,
     name: "FETCH A DOG",
     description:
       "A project that demonstrates fetching data from the Dog API using HTML, CSS and JavaScript. Don't stop retrieving!",
@@ -38,22 +47,13 @@ const projectsData = [
     github: "https://github.com/sfbennett/fetch-a-dog",
   },
   {
-    id: 5,
+    id: 6,
     name: "NASA DAILY ASTRONOMY",
     description:
       "A project I made to test out the NASA Astronomy Photo of the Day (APOD) API to fetch daily astronomy photographs",
     image: "/images/gg.png",
     link: "",
     github: "",
-  },
-  {
-    id: 6,
-    name: "SHRED STUDIO",
-    description:
-      "Shred Studio is a static guitar company website that I designed and created using HTML and CSS",
-    image: "/images/shredstudio.png",
-    link: "https://sfbennett.github.io/shred-studio/",
-    github: "https://github.com/sfbennett/shred-studio",
   },
   {
     id: 7,
@@ -66,6 +66,15 @@ const projectsData = [
   },
   {
     id: 8,
+    name: "SOLAR SYSTEM FILTER",
+    description:
+      "A project that filters the planets of the solar system via input and buttons using HTML, CSS and vanilla JavaScript",
+    image: "/images/planets.png",
+    link: "https://sfbennett.github.io/solar-system-filter/",
+    github: "https://github.com/sfbennett/solar-system-filter",
+  },
+  {
+    id: 9,
     name: "WEATHER FORECAST API",
     description:
       "A simple weather forecast app created to test out the Open Meteo Weather Forecast API using HTML, CSS and vanilla JavaScript",
@@ -74,13 +83,22 @@ const projectsData = [
     github: "https://github.com/sfbennett/weather-forecast",
   },
   {
-    id: 9,
-    name: "SOLAR SYSTEM FILTER",
+    id: 10,
+    name: "SHRED STUDIO",
     description:
-      "A project that filters the planets of the solar system via input and buttons using HTML, CSS and vanilla JavaScript",
-    image: "/images/planets.png",
-    link: "https://sfbennett.github.io/solar-system-filter/",
-    github: "https://github.com/sfbennett/solar-system-filter",
+      "Shred Studio is a static guitar company website that I designed and created to practice using HTML and CSS",
+    image: "/images/shredstudio.png",
+    link: "https://sfbennett.github.io/shred-studio/",
+    github: "https://github.com/sfbennett/shred-studio",
+  },
+  {
+    id: 11,
+    name: "GALACTIC GETAWAYS",
+    description:
+      "A customised version of Pete G's original TechNative Space Adventures tutorial, that I styled separately to practice using CSS",
+    image: "/images/galactic.png",
+    link: "https://sfbennett.github.io/galactic-getaways/",
+    github: "https://github.com/sfbennett/galactic-getaways",
   },
 ];
 
