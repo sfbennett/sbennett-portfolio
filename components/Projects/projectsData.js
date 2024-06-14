@@ -32,7 +32,7 @@ const projectsData = [
     id: 4,
     name: "ALBUM API",
     description:
-      "A RESTful album API hosted on Render that I created using Express.js to manage data from different endpoints",
+      "A simple RESTful album API that I created using Express.js to manage data from different endpoints, hosted on Render",
     image: "/images/albumapi.png",
     link: "https://sbennett-album-api.onrender.com/",
     github: "https://github.com/sfbennett/album-api",
