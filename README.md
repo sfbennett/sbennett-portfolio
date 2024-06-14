@@ -1,17 +1,17 @@
 # Portfolio
 
-**`Welcome to my portfolio`**
+**`Welcome to my portfolio site. This is a continuous work in progress.`**
 
 ## Technologies Used
 
 - HTML
-- CSS
+- CSS and animations
 - JavaScript
 - JSX
 - React + Vite
-- React Router
+- React Router to create dynamic SPA
 
-## Tools
+## Tools Used
 
 - Netlify
 - Spaceship
