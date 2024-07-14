@@ -1,6 +1,6 @@
 # Portfolio
 
-**`Welcome to my portfolio site. This is a continuous work in progress.`**
+**`Welcome to my React-based custom portfolio site. This is a continuous work in progress.`**
 
 ## Technologies Used
 
